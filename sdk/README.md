@@ -7,7 +7,7 @@
 - [Node with Ethers Provider](#node-with-ethers-provider)
 - [API Reference:](#api-reference)
   - [Interface](#interface)
-    - [RiverBox Interface](#riverbox-interface)
+    - [CellEvolution Interface](#cellEvolution-interface)
   - [MockClient Example](#mockclient-example)
 - [SDK-Package:](#sdk-package-1)
   - [Build:](#build)
@@ -21,8 +21,8 @@ yarn add @white-matrix/cellevolution-sdk
 
 ## API Reference:
 ### Interface
-#### RiverBox Interface
-[riverbox-client.ts](./src/client/riverbox-client.ts)
+#### CellEvolution Interface
+[cellEvolution-client.ts](./src/client/cellEvolution-client.ts)
 ```typescript
 export interface CellEvolutionClient {
   connectProvider(address: string, provider: Provider): CellEvolutionClient;

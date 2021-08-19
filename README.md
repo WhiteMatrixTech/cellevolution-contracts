@@ -1,7 +1,7 @@
 # cellerfork-contract
 - [SDK package](./sdk/)
 - [Sample Scripts](#sample-scripts)
-- [RiverBox Dev](#riverbox-dev)
+- [CellEvolution Dev](#cellEvolution-dev)
 - [Admin SOP](#admin-sop)
 - [Latest Contract Address](./logs-persis/deployment.json)
 
