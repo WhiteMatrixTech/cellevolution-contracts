@@ -3,15 +3,10 @@
 
 - [SDK Package](#sdk-package)
 - [Install](#install)
-- [Browser with Metamask](#browser-with-metamask)
-- [Node with Ethers Provider](#node-with-ethers-provider)
 - [API Reference:](#api-reference)
   - [Interface](#interface)
-    - [CellEvolution Interface](#cellEvolution-interface)
-  - [MockClient Example](#mockclient-example)
 - [SDK-Package:](#sdk-package-1)
   - [Build:](#build)
-  - [Test:](#test)
   - [Publish:](#publish)
 
 ## Install
