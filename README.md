@@ -16,27 +16,36 @@ yarn
 yarn run hardhat compile
 ```
 
-### Run lint 
+### test
+```bash
+yarn hardhat test
+```
+
+### Run coverage
+```bash
+yarn hardhat coverage
+```
+
+### Run lint
 ```bash
 yarn run lint
 yarn run lint:fix
 ```
 
-### Run format 
+### Run format
 ```bash
 yarn run format
 yarn run format:fix
 ```
 
-### Generate types for SDK 
+### Generate types for SDK
 ```bash
-yarn run hardhat typechain 
+yarn run hardhat typechain
 ```
 
 ### Hardhat start local test node
 ```bash
 yarn run hardhat node --network hardhat --no-deploy --show-accounts
-
 ```
 
 Deploy
@@ -50,6 +59,7 @@ Deploy
 ``` bash
 LOAD_TASK=True yarn run env-cmd -f ./envs/.env.eth.rinkeby yarn run hardhat cellEvolution:deploy --wait-num 1 --network rinkeby | tee -a ./logs/deployToLocal.log
 ```
+
 verify
 ``` bash
 LOAD_TASK=True yarn run env-cmd -f ./envs/.env.eth.rinkeby yarn run hardhat cellEvolution:verify --network rinkeby | tee -a ./logs/verifyRinkeby.log

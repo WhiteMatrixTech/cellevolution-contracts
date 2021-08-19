@@ -115,12 +115,6 @@ export interface CellEvolutionClient {
 yarn run build
 ```
 
-### Test:
-Start local hardhat node first and deploy the contract
-```bash
-CONTRACT_ADDRESS={ADDRESS} yarn run test
-```
-
 ### Publish:
 Recommend to use yarn's publish command to publish the pacakge
 ```bash
