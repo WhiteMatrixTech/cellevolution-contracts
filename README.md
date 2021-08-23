@@ -28,6 +28,9 @@ yarn run lint:fix
 ```
 
 ### Run format
+
+[ChainIDE-SOP](./pages/ChainIDE-SOP.md)
+
 ```bash
 yarn run format
 yarn run format:fix

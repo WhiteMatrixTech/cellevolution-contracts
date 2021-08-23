@@ -22,7 +22,6 @@ function cellEvolutionProvider(mock = false) {
 }
 exports.cellEvolutionProvider = cellEvolutionProvider;
 __exportStar(require("./model"), exports);
-__exportStar(require("./util"), exports);
 var typechain_1 = require("./typechain");
 Object.defineProperty(exports, "CellEvolution__factory", { enumerable: true, get: function () { return typechain_1.CellEvolutionNewWorld__factory; } });
 __exportStar(require("./config"), exports);

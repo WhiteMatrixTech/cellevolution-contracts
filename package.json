@@ -5,6 +5,7 @@
   "repository": "https://github.com/WhiteMatrixTech/cellevolution-contracts.git",
   "author": "33357 <43600005+33357@users.noreply.github.com>",
   "license": "MIT",
+  "workspace": ["sdk"],
   "scripts": {},
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
