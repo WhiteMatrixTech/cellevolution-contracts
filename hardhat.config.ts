@@ -7,6 +7,7 @@ import '@openzeppelin/hardhat-upgrades';
 import '@nomiclabs/hardhat-etherscan';
 import '@typechain/hardhat';
 import "hardhat-gas-reporter";
+import 'solidity-coverage';
 import "./tasks";
 import dotenv from 'dotenv';
 

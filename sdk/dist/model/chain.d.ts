@@ -28,35 +28,3 @@ export interface CellEvolution {
     belong: BigNumber;
     version: BigNumber;
 }
-export interface ContractBuyResult {
-    transactionHash: string;
-    newTokenIds: BigNumber[];
-}
-export interface ContractFuseResult {
-    transactionHash: string;
-    newTokenId: BigNumber;
-}
-export interface ContractAwardedBoxEvent {
-    payer: string;
-    tokenId: BigNumber;
-}
-export interface ContractTokenDetail {
-    locationId: number;
-    fusionCount: number;
-    airDropResourceId: number;
-    signature: BigNumber;
-    parts: BigNumber[];
-}
-export interface ContractDealDetail {
-    price: BigNumber;
-    createdTime: BigNumber;
-    seller: string;
-    tokenId: BigNumber;
-}
-export interface ContractDealPostedEvent {
-    dealId: BigNumber;
-}
-export interface ContractPostDealResult {
-    dealId: BigNumber;
-    transactionHash: string;
-}
